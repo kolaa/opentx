@@ -86,6 +86,9 @@ static const char * options[] = {
 #if defined(SHUTDOWN_CONFIRMATION)
   "shutdownconfirm",
 #endif
+#if defined(EXTERNAL_MODULE_PXX2)
+  "externalaccess",
+#endif
   nullptr //sentinel
 };
 
